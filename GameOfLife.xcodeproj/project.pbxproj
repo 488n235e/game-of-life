@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A3A499E20CDCDD000B27CF8 /* GameOfLife.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A3A498720CDCD8300B27CF8 /* GameOfLife.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A3A496920CDCC0600B27CF8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A3A496B20CDCC0600B27CF8 /* GameOfLife */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameOfLife; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A3A498620CDCD8300B27CF8 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		2A3A498720CDCD8300B27CF8 /* GameOfLife.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameOfLife.cpp; sourceTree = "<group>"; };
+		2A3A498920CDCD8300B27CF8 /* programs.cl */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.opencl; path = programs.cl; sourceTree = "<group>"; };
+		2A3A498A20CDCD8300B27CF8 /* cl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cl.hpp; sourceTree = "<group>"; };
+		2A3A498D20CDCD8300B27CF8 /* Copying.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Copying.txt; sourceTree = "<group>"; };
+		2A3A499020CDCD8300B27CF8 /* freeglut.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = freeglut.dll; sourceTree = "<group>"; };
+		2A3A499120CDCD8300B27CF8 /* freeglut.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = freeglut.dll; sourceTree = "<group>"; };
+		2A3A499420CDCD8300B27CF8 /* glut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glut.h; sourceTree = "<group>"; };
+		2A3A499520CDCD8300B27CF8 /* freeglut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeglut.h; sourceTree = "<group>"; };
+		2A3A499620CDCD8300B27CF8 /* freeglut_ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeglut_ext.h; sourceTree = "<group>"; };
+		2A3A499720CDCD8300B27CF8 /* freeglut_std.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = freeglut_std.h; sourceTree = "<group>"; };
+		2A3A499820CDCD8300B27CF8 /* .placeholder */ = {isa = PBXFileReference; lastKnownFileType = text; path = .placeholder; sourceTree = "<group>"; };
+		2A3A499B20CDCD8300B27CF8 /* freeglut.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = freeglut.lib; sourceTree = "<group>"; };
+		2A3A499C20CDCD8300B27CF8 /* freeglut.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = freeglut.lib; sourceTree = "<group>"; };
+		2A3A499D20CDCD8300B27CF8 /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3A496820CDCC0600B27CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A3A496220CDCC0600B27CF8 = {
+			isa = PBXGroup;
+			children = (
+				2A3A496D20CDCC0600B27CF8 /* GameOfLife */,
+				2A3A496C20CDCC0600B27CF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A3A496C20CDCC0600B27CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A496B20CDCC0600B27CF8 /* GameOfLife */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A3A496D20CDCC0600B27CF8 /* GameOfLife */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A498A20CDCD8300B27CF8 /* cl.hpp */,
+				2A3A498620CDCD8300B27CF8 /* Common.h */,
+				2A3A498B20CDCD8300B27CF8 /* external */,
+				2A3A498720CDCD8300B27CF8 /* GameOfLife.cpp */,
+				2A3A498820CDCD8300B27CF8 /* kernels */,
+			);
+			path = GameOfLife;
+			sourceTree = "<group>";
+		};
+		2A3A498820CDCD8300B27CF8 /* kernels */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A498920CDCD8300B27CF8 /* programs.cl */,
+			);
+			path = kernels;
+			sourceTree = "<group>";
+		};
+		2A3A498B20CDCD8300B27CF8 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A498C20CDCD8300B27CF8 /* freeglut */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		2A3A498C20CDCD8300B27CF8 /* freeglut */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A498D20CDCD8300B27CF8 /* Copying.txt */,
+				2A3A498E20CDCD8300B27CF8 /* bin */,
+				2A3A499220CDCD8300B27CF8 /* include */,
+				2A3A499820CDCD8300B27CF8 /* .placeholder */,
+				2A3A499920CDCD8300B27CF8 /* lib */,
+				2A3A499D20CDCD8300B27CF8 /* Readme.txt */,
+			);
+			path = freeglut;
+			sourceTree = "<group>";
+		};
+		2A3A498E20CDCD8300B27CF8 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A498F20CDCD8300B27CF8 /* x64 */,
+				2A3A499120CDCD8300B27CF8 /* freeglut.dll */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		2A3A498F20CDCD8300B27CF8 /* x64 */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A499020CDCD8300B27CF8 /* freeglut.dll */,
+			);
+			path = x64;
+			sourceTree = "<group>";
+		};
+		2A3A499220CDCD8300B27CF8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A499320CDCD8300B27CF8 /* GL */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		2A3A499320CDCD8300B27CF8 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A499420CDCD8300B27CF8 /* glut.h */,
+				2A3A499520CDCD8300B27CF8 /* freeglut.h */,
+				2A3A499620CDCD8300B27CF8 /* freeglut_ext.h */,
+				2A3A499720CDCD8300B27CF8 /* freeglut_std.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		2A3A499920CDCD8300B27CF8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A499A20CDCD8300B27CF8 /* x64 */,
+				2A3A499C20CDCD8300B27CF8 /* freeglut.lib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2A3A499A20CDCD8300B27CF8 /* x64 */ = {
+			isa = PBXGroup;
+			children = (
+				2A3A499B20CDCD8300B27CF8 /* freeglut.lib */,
+			);
+			path = x64;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A3A496A20CDCC0600B27CF8 /* GameOfLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3A497220CDCC0700B27CF8 /* Build configuration list for PBXNativeTarget "GameOfLife" */;
+			buildPhases = (
+				2A3A496720CDCC0600B27CF8 /* Sources */,
+				2A3A496820CDCC0600B27CF8 /* Frameworks */,
+				2A3A496920CDCC0600B27CF8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameOfLife;
+			productName = GameOfLife;
+			productReference = 2A3A496B20CDCC0600B27CF8 /* GameOfLife */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A3A496320CDCC0600B27CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alassane Coly-Arogundade";
+				TargetAttributes = {
+					2A3A496A20CDCC0600B27CF8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2A3A496620CDCC0600B27CF8 /* Build configuration list for PBXProject "GameOfLife" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A3A496220CDCC0600B27CF8;
+			productRefGroup = 2A3A496C20CDCC0600B27CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A3A496A20CDCC0600B27CF8 /* GameOfLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A3A496720CDCC0600B27CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3A499E20CDCDD000B27CF8 /* GameOfLife.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A3A497020CDCC0700B27CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2A3A497120CDCC0700B27CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2A3A497320CDCC0700B27CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4SHMJ785G;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A3A497420CDCC0700B27CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4SHMJ785G;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A3A496620CDCC0600B27CF8 /* Build configuration list for PBXProject "GameOfLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3A497020CDCC0700B27CF8 /* Debug */,
+				2A3A497120CDCC0700B27CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3A497220CDCC0700B27CF8 /* Build configuration list for PBXNativeTarget "GameOfLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3A497320CDCC0700B27CF8 /* Debug */,
+				2A3A497420CDCC0700B27CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A3A496320CDCC0600B27CF8 /* Project object */;
+}
